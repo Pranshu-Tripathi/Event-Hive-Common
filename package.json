@@ -2,11 +2,21 @@
   "name": "@eventhive/common",
   "version": "1.0.0",
   "description": "This is a shared library that is implemented and to be used by the EventHive application.",
-  "main": "index.js",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "files": [
+    "build/**/*"
+  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "del ./build/*",
+    "build": "npm run clean && tsc",
+    "pub": "git add . && git commit -m \"Publishing new version\" && npm version patch && npm publish --access public && git push && git push --tags"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "del-cli": "^6.0.0",
+    "typescript": "^5.6.3"
+  }
 }
