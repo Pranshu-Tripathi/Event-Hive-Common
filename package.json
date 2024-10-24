@@ -1,0 +1,12 @@
+{
+  "name": "@eventhive/common",
+  "version": "1.0.0",
+  "description": "This is a shared library that is implemented and to be used by the EventHive application.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
