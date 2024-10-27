@@ -1,6 +1,6 @@
 {
   "name": "@eventhive/common",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a shared library that is implemented and to be used by the EventHive application.",
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
