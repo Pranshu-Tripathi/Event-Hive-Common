@@ -7,3 +7,5 @@ Common Code is to be used across multiple services:
 - Custom Errors
 - Authentication Middleware
 - RequestValidation Middleware
+- Custom Error Middleware
+- Events from listeners and publishers
